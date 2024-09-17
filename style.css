@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+}
+.card{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg , #00feba,#5b548a);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    /* width: 80%; */
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    /* flex: 1; */
+    font-size: 18px;
+    /* border-radius: 15%; */
+}
+button{
+    border: 0;
+    outline: 0;
+    border-radius: 30px;
+}
+img{
+    background-color: #fff;
+    width:60px;
+    height: 60px;
+    padding: 0%;
+    margin: auto;
+    border-radius: 40px;
+}
+.extra-cont{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.extra{
+    padding: 0px 25px 10px 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.display{
+    padding: 20px;
+}
+.sun {
+    width: 300px;  /* Set the desired width */
+    height: 300px;  /* Maintain aspect ratio */
+    border-radius: 100px;
+    display: block;
+    margin: 0 auto;  /* Center the image */
+}
+
+h1{
+    padding-bottom: 20px;
+}
+h3{
+    padding-bottom: 20px;
+}
